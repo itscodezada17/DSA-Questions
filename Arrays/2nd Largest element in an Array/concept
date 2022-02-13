@@ -1,0 +1,10 @@
+lets assume if 0 is the largest element -1 will be 2nd largest.
+While traversing in the array we yhave to keep records of largest and 2nd largest element.
+
+Assign values to the largest and 2nd largest on the basis of 
+          if   a[i] > a[largest]  then 2ndLargest = largest and largest = i .
+          else if a[i] < a[largest]  then 
+                      if res = -1 then res= i .
+                      else if a[i] > a[res] then res = i.
+                      
+                      any other cases will be ignored.
