@@ -1,4 +1,4 @@
-//Function to return a list containing elements of left view of the binary tree.
+//Function to return a list containing elements of traversal of the binary tree in level order
 vector<int> leftView(Node *root)
 {
    if(root==NULL) 
